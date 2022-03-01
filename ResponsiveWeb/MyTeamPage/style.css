@@ -18,7 +18,6 @@ body{
      font-size: 0.14rem;
 }
 #heading,#firstRow{
-    /* border: 1px solid black; */
     width:65vw;
     display: flex;
     align-items: center;
@@ -48,21 +47,16 @@ p{
     font-weight: 400;
 }
 .face{
-    display: flex;
-}
-img{
-    max-height:50vh;
+    display:flex;
 }
 .des{
+    writing-mode:vertical-rl;
     font-family: 'PT Serif', serif;
     font-size: 0.12rem;
     font-weight: 400;
-  transform-origin: 0 0;
-  transform: rotate(90deg);
-  margin-left: 37vh;
-  height: fit-content;
-  width: fit-content;
-  position: absolute;
+}
+img{
+    max-width:15vw;
 }
 .name{
     font-family: 'Poppins', sans-serif;
@@ -70,52 +64,30 @@ img{
     font-weight: 600;
     margin-top:2vh;
 }
+.group1,.group2,.group3,.group4,.group5,.group6{
+    flex-basis:25.1%;
+}
 .group2,.group5{
     margin-top: 20vh;
 }
-@media screen and (max-width:1400px) {
+@media screen and (max-width:800px) {
     .group2,.group4,.group6{
         margin-top: 20vh;
     }
     .group5{
         margin-top: 0;
     }
-}
-@media screen and (max-width:1200px) {
+    img{
+        max-width: 30vw;
+    }
+    #heading,#firstRow{
+        width:70vw;
+    }
     #heading{
-        width:30vw;
         flex-direction: column;
         align-items: flex-start;
     }
-    img{
-        max-height: 30vh;
-    }
-    .des{
-        margin-left: 23vh;
-    }
-    .group2,.group4,.group6{
-        margin-top: 0;
-    }
-    .group2,.group5{
-        margin-top: 20vh;
-    }
-}
-@media screen and (max-width:930px) {
-    .group2,.group4,.group6{
-        margin-top: 20vh;
-    }
-    .group5{
-        margin-top: 0;
-    }
-}
-@media screen and (max-width:650px) {
-    #heading{
-        width:60vw;
-    }
-    img{
-        max-height: 20vh;
-    }
-    .des{
-        margin-left: 16vh;
+    p{
+        width: 60vw;
     }
 }
