@@ -1,0 +1,121 @@
+html{
+    font-size: 100px;
+}
+body{
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#copy-right{
+    margin-top: -1px;
+    width: 100%;
+    text-align: center;
+     font-family: 'Montserrat', sans-serif;
+     font-weight: 500;
+     color: rgba(189, 189, 189, 1);
+     font-size: 0.14rem;
+}
+#heading,#firstRow{
+    /* border: 1px solid black; */
+    width:65vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 5vh;
+    flex-wrap: wrap;
+
+}
+h1{
+    font-family: 'PT Serif', serif;
+    font-size:0.36rem;
+    font-weight:700;
+    display: inline-block;
+}
+#sub{
+max-width: 30vw;
+}
+#subHead,p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.18rem;
+    font-weight: 600;
+    margin-top: 5vh;
+}
+p{
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    font-weight: 400;
+}
+.face{
+    display: flex;
+}
+img{
+    max-height:50vh;
+}
+.des{
+    font-family: 'PT Serif', serif;
+    font-size: 0.12rem;
+    font-weight: 400;
+  transform-origin: 0 0;
+  transform: rotate(90deg);
+  margin-left: 37vh;
+  height: fit-content;
+  width: fit-content;
+  position: absolute;
+}
+.name{
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.18rem;
+    font-weight: 600;
+    margin-top:2vh;
+}
+.group2,.group5{
+    margin-top: 20vh;
+}
+@media screen and (max-width:1400px) {
+    .group2,.group4,.group6{
+        margin-top: 20vh;
+    }
+    .group5{
+        margin-top: 0;
+    }
+}
+@media screen and (max-width:1200px) {
+    #heading{
+        width:30vw;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    img{
+        max-height: 30vh;
+    }
+    .des{
+        margin-left: 23vh;
+    }
+    .group2,.group4,.group6{
+        margin-top: 0;
+    }
+    .group2,.group5{
+        margin-top: 20vh;
+    }
+}
+@media screen and (max-width:930px) {
+    .group2,.group4,.group6{
+        margin-top: 20vh;
+    }
+    .group5{
+        margin-top: 0;
+    }
+}
+@media screen and (max-width:650px) {
+    #heading{
+        width:60vw;
+    }
+    img{
+        max-height: 20vh;
+    }
+    .des{
+        margin-left: 16vh;
+    }
+}
