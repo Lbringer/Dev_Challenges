@@ -1,0 +1,39 @@
+body{
+    padding: 0;
+    margin: 0;
+    min-height: 100vh;
+}
+h1,h2{
+    font-family: 'Playfair Display';
+    font-weight: 700;
+    font-size: 3vw;
+    margin: 2vh 0 2vh 0;
+}
+header,main{
+    width: 60vw;
+    height: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    /* border: 1px solid black; */
+}
+#sub-header{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color:rgba(79, 79, 79, 1); 
+    width:40vw;
+    margin: 0;
+    font-style: italic;
+    font-size: 0.95vw;
+    margin: 0 0 6vh 0;
+}
+#six-dots{
+    margin: 0.8vh 1vh 2vh 0;
+}
+#cake{
+   width: 100%;
+}
+h2{
+    font-size: 1.4vw;
+    margin-top: 5vh;
+    color:rgba(51, 51, 51, 1);
+}
