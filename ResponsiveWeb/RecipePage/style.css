@@ -1,39 +1,322 @@
-body{
+body {
     padding: 0;
     margin: 0;
     min-height: 100vh;
 }
-h1,h2{
+
+h1,
+h2 {
     font-family: 'Playfair Display';
     font-weight: 700;
     font-size: 3vw;
     margin: 2vh 0 2vh 0;
 }
-header,main{
+
+header,
+main,
+footer,
+.link {
     width: 60vw;
     height: fit-content;
     margin-left: auto;
     margin-right: auto;
     /* border: 1px solid black; */
 }
-#sub-header{
+
+#sub-header {
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
-    color:rgba(79, 79, 79, 1); 
-    width:40vw;
+    color: rgba(79, 79, 79, 1);
+    width: 40vw;
     margin: 0;
     font-style: italic;
     font-size: 0.95vw;
     margin: 0 0 6vh 0;
 }
-#six-dots{
+
+#six-dots {
     margin: 0.8vh 1vh 2vh 0;
 }
-#cake{
-   width: 100%;
+
+#cake {
+    width: 100%;
+    border-radius: 12px;
 }
-h2{
-    font-size: 1.4vw;
+
+h2 {
+    font-size: 1.5vw;
     margin-top: 5vh;
-    color:rgba(51, 51, 51, 1);
+    color: rgba(51, 51, 51, 1);
+}
+
+h3 {
+    margin-top: 4.5vh;
+    font-family: 'Playfair Display';
+    font-weight: 400;
+    font-size: 1.2vw;
+    font-style: italic;
+}
+
+.container {
+    display: flex;
+    width: 36.5vw;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 3vh;
+    /* border: 1px solid black; */
+}
+
+input[type="checkbox"] {
+    width: 2.8vh;
+    height: 2.8vh;
+}
+
+.checkSub {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: rgba(51, 51, 51, 1);
+    width: 34vw;
+    line-height: 25px;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.italic {
+    font-weight: 500;
+    font-style: italic;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+}
+
+#serving {
+    width: 15vw;
+    height: 25vw;
+    /* border: 1px solid black; */
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    margin-top: 5vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 8vw;
+    /* border: 1px solid black; */
+}
+
+.label,
+.title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: rgba(189, 189, 189, 1);
+    font-size: 0.7vw;
+}
+
+.icon {
+    width: 1.7vw;
+}
+
+.title {
+    font-weight: 500;
+    font-size: 0.9vw;
+    color: black;
+}
+
+.sub {
+    width: 5.5vw;
+}
+
+.square {
+    width: 2.5vw;
+    height: 2.5vw;
+    background-color: rgba(242, 153, 74, 1);
+    border-radius: 6px;
+    font-family: 'Playfair Display';
+    font-weight: 700;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 1.6vw;
+    box-sizing: border-box;
+}
+
+.instructBox {
+    display: flex;
+    width: 36.5vw;
+    /* border: 1px solid black; */
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 5vh;
+}
+
+.para {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    width: 33vw;
+    line-height: 24px;
+}
+
+#copy-right {
+    margin-top: -1px;
+    width: 100%;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: rgba(130, 130, 130, 1);
+    font-size: 1vw;
+}
+
+.link {
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: rgba(189, 189, 189, 1);
+    font-size: 1.1vw;
+    font-style: italic;
+}
+
+@media screen and (max-width: 700px) {
+
+    h1,
+    h2 {
+        font-size: 7vw;
+        margin: 2vh 0 2vh 0;
+    }
+
+    h2 {
+        font-size: 5.5vw;
+    }
+
+    h3 {
+        font-size: 4vw;
+        margin-top: 3vh;
+    }
+
+    #sub-header {
+        width: 84vw;
+        font-size: 3.4vw;
+        margin: 0 0 3vh 0;
+    }
+
+    #six-dots {
+        margin: 0.8vh 1vh 2vh 0;
+    }
+
+    header,
+    main,
+    footer,
+    .link {
+        width: 95vw;
+        /* border: 1px solid black; */
+    }
+
+    .container {
+        display: flex;
+        width: 95vw;
+        justify-content: space-between;
+        align-items: flex-start;
+        margin-top: 3vh;
+        /* border: 1px solid black; */
+    }
+
+    input[type="checkbox"] {
+        width: 2.8vh;
+        height: 2.8vh;
+    }
+
+    .checkSub {
+        width: 85vw;
+        line-height: 25px;
+        font-size: 4vw;
+    }
+
+    main {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column-reverse;
+    }
+
+    #serving {
+        width: 90vw;
+        height: 25vw;
+        /* border: 1px solid black; */
+        box-shadow: none;
+        border-radius: 12px;
+        margin-top: 5vh;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .box {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        width: 29vw;
+        /* border: 1px solid black; */
+    }
+
+    .label,
+    .title {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+        color: rgba(189, 189, 189, 1);
+        font-size: 2.2vw;
+        width: 20vw;
+    }
+
+    .icon {
+        width: 4vw;
+    }
+
+    .title {
+        font-weight: 500;
+        font-size: 3vw;
+        color: black;
+    }
+
+    .dif {
+        width: 100%;
+    }
+
+    .sub {
+        margin-left: 2vw;
+    }
+
+    .square {
+        width: 9vw;
+        height: 9vw;
+        font-size: 6vw;
+    }
+
+    .instructBox {
+        width: 95vw;
+    }
+
+    .para {
+        width: 83vw;
+    }
+
+    #copy-right {
+        font-size: 3vw;
+    }
+
+    .link {
+        font-size: 3vw;
+    }
+
 }
