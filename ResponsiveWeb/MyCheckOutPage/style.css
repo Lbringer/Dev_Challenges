@@ -1,0 +1,378 @@
+body {
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    margin-top: 6vh;
+    width: 65vw;
+    min-height: 120vh;
+    /* border: 1px solid black; */
+}
+
+.mon {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+h1 {
+    margin: 0;
+    color: rgba(78, 81, 80, 1);
+    font-size: 2.3vw;
+}
+
+.container {
+    display: flex;
+}
+
+form,
+#cat {
+    width: 50%;
+    height: 110vh;
+    /* border: 1px solid black; */
+}
+
+h2 {
+    color: rgba(51, 51, 51, 1);
+    margin-top: 5vh;
+    font-size: 1.15vw;
+}
+
+.formComp,
+.checkbox {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2vh;
+}
+
+label {
+    color: rgba(79, 79, 79, 1);
+    font-size: 0.8vw;
+}
+
+input,
+select {
+    height: 7vh;
+    border-radius: 12px;
+    border: 1px solid rgba(130, 130, 130, 1);
+    margin-top: 1vh;
+    font-size: 1.1vw;
+    background-image: url(./resources/email_black_24dp\ 1.png);
+    background-repeat: no-repeat;
+    text-indent: 4vw;
+    background-position: 5% 50%;
+    background-size: 1.5vw auto;
+}
+
+.phone {
+    background-image: url(./resources/phone.png);
+    background-size: 1.2vw auto;
+}
+
+.profile {
+    background-image: url(./resources/profile.png);
+    background-size: 1.2vw auto;
+}
+
+.home {
+    background-image: url(./resources/home.png);
+    background-size: 1.2vw auto;
+}
+
+.city {
+    background-image: url(./resources/city.png);
+    background-size: 1.2vw auto;
+}
+
+select {
+    appearance: none;
+    width: 15.5vw;
+}
+
+select:invalid {
+    color: gray;
+}
+
+.world {
+    background-image: url(./resources/world.png), url(./resources/dropdown.png);
+    background-size: 1.2vw auto;
+    background-position: 11% 50%, 90% 50%;
+}
+
+.post {
+    background-image: url(./resources/post.png);
+    background-size: 1.2vw auto;
+}
+
+.box {
+    margin-bottom: 8vh;
+}
+
+.checkbox {
+    flex-direction: row;
+    align-items: center;
+    margin-top: 1.8vh;
+    /* border: 1px solid black; */
+}
+
+input[type="checkbox"] {
+    width: 1.2vw;
+    height: 1.2vw;
+    margin: 0;
+    margin-right: 2vh;
+}
+
+button {
+    width: 10vw;
+    height: 3.5vw;
+    border: 0;
+    background-color: rgba(242, 153, 74, 1);
+    color: white;
+    border-radius: 12px;
+    font-size: 1.1vw;
+}
+
+.btn {
+    align-items: flex-end;
+}
+
+#box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 35vw;
+    width: 25vw;
+    background-color: rgba(242, 242, 242, 1);
+    border-radius: 12px;
+    margin-top: 5vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.checkOut {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 25vw;
+    height: 11vw;
+    /* border: 1px solid black; */
+    margin-top: 3vh;
+}
+
+.cimg {
+    height: 9.5vw;
+    width: auto;
+    border-radius: 12px;
+}
+
+.price {
+    display: flex;
+    width: 9vw;
+    align-items: center;
+    margin-bottom: 3vh;
+}
+
+
+.counter {
+    display: flex;
+    width: 9vw;
+    height: 3.2vw;
+    border-radius: 12px;
+    border: 1px solid rgba(130, 130, 130, 1);
+    justify-content: space-around;
+    align-items: center;
+}
+
+.data {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* border: 1px solid black; */
+    height: 9.5vw;
+    width: 10vw;
+}
+
+.title,
+.dprice {
+    font-size: 1.1vw;
+}
+
+.dprice {
+    color: rgba(242, 153, 74, 1);
+}
+
+.rprice {
+    font-size: 0.8vw;
+    margin-left: 0.8vw;
+    text-decoration: line-through;
+}
+
+.score {
+    width: 1.4vw;
+    height: auto;
+}
+
+hr {
+    border: 0.5px solid rgba(189, 189, 189, 1);
+    width: 21vw;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+}
+
+.billing {
+    width: 21vw;
+    height: 5vh;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.btitle {
+    font-size: 1.1vw;
+}
+
+.bprice {
+    font-size: 1vw;
+}
+
+.number {
+    font-size: 1.2vw;
+}
+
+#copy-right {
+    margin-top: -1px;
+    width: 100%;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: rgba(130, 130, 130, 1);
+    font-size: 1vw;
+}
+
+span {
+    font-weight: 700;
+}
+
+@media screen and (max-width: 500px) {
+    .container {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    form,
+    #cat {
+        width: 95%;
+        height: 110vh;
+        /* border: 1px solid black; */
+    }
+
+    main {
+        width: 90vw;
+    }
+
+    h1 {
+        font-size: 6vw;
+    }
+
+    #box {
+        min-height: 95vw;
+        width: 85vw;
+    }
+
+    .checkOut {
+        width: 85vw;
+        height: 30vw;
+        /* border: 1px solid black; */
+    }
+
+    .cimg {
+        height: 30vw;
+        width: auto;
+        border-radius: 12px;
+    }
+
+    .price {
+        display: flex;
+        width: 9vw;
+        align-items: center;
+        margin-bottom: 3vh;
+        /* border: 1px solid black; */
+    }
+
+
+    .counter {
+        display: flex;
+        width: 9vw;
+        height: 3.2vw;
+        border-radius: 12px;
+        border: 1px solid rgba(130, 130, 130, 1);
+        justify-content: space-around;
+        align-items: center;
+        /* border: 1px solid black; */
+    }
+
+    .data {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        /* align-items: center; */
+        /* border: 1px solid black; */
+        height: 30vw;
+        width: 40vw;
+    }
+
+    .title,
+    .dprice {
+        font-size: 4vw;
+    }
+
+    .dprice {
+        color: rgba(242, 153, 74, 1);
+    }
+
+    .rprice {
+        font-size: 3vw;
+        margin-left: 2vw;
+        text-decoration: line-through;
+    }
+
+    .score {
+        width: 1.4vw;
+        height: auto;
+    }
+
+    hr {
+        border: 0.5px solid rgba(189, 189, 189, 1);
+        width: 21vw;
+        margin-top: 1vh;
+        margin-bottom: 1vh;
+    }
+
+    .billing {
+        width: 21vw;
+        height: 5vh;
+        /* border: 1px solid black; */
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .btitle {
+        font-size: 1.1vw;
+    }
+
+    .bprice {
+        font-size: 1vw;
+    }
+
+    .number {
+        font-size: 1.2vw;
+    }
+
+}

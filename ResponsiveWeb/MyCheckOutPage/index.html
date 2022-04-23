@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>My Checkout Page</title>
+</head>
+
+<body>
+    <main>
+        <h1 class="mon">Checkout</h1>
+        <div class="container">
+            <form action="#">
+                <div class="box">
+                    <h2 class="mon">Contact Information</h2>
+                    <div class="formComp">
+                        <label for="email" class="mon">E-mail</label>
+                        <input id="email" type="email" class="mon" placeholder="Enter your email..." required>
+                    </div>
+                    <div class="formComp">
+                        <label for="phone" class="mon">Phone</label>
+                        <input id="phone" type="number" class="mon phone" placeholder="Enter your phone..." required>
+                    </div>
+                </div>
+                <div class="box">
+                    <h2 class="mon">Shipping Address</h2>
+                    <div class="formComp">
+                        <label for="name" class="mon">Full name</label>
+                        <input id="name" type="text" class="mon profile" value="Rodney Cotton"
+                            placeholder="Enter your email..." required>
+                    </div>
+                    <div class="formComp">
+                        <label for="addr" class="mon">Address</label>
+                        <input id="addr" type="number" class="mon home" placeholder="Your address..." required>
+                    </div>
+                    <div class="formComp">
+                        <label for="city" class="mon">City</label>
+                        <input id="city" type="text" class="mon city" placeholder="Your city..." required>
+                    </div>
+                    <div style="display: flex; justify-content: space-between;">
+                        <div class="formComp">
+                            <label for="con" class="mon">Country</label>
+                            <select id="con" class="mon world" required>
+                                <option value="" disabled selected hidden>Your country...</option>
+                                <option value="india">India</option>
+                                <option value="usa">USA</option>
+                                <option value="can">Canada</option>
+                            </select>
+                            <!-- <input type="text" class="mon world" placeholder="Your country... "> -->
+                        </div>
+                        <div class="formComp">
+                            <label for="pos" class="mon">Postal Code</label>
+                            <input id="pos" style="text-indent: 3vw;" type="text" class="mon post"
+                                placeholder="Your postal code..." required>
+                        </div>
+                    </div>
+                    <div class="checkbox">
+                        <input type="checkbox" name="save" id="save" required>
+                        <label for="save" class="mon">Save this information for next time</label>
+                    </div>
+                    <div class="formComp btn">
+                        <button type="submit" class="mon">Continue</button>
+                    </div>
+                </div>
+            </form>
+            <div id="cat">
+                <div id="box">
+                    <div>
+                        <div class="checkOut">
+                            <img src="./resources/photo1.png" alt="backpack" class="cimg">
+                            <div class="data">
+                                <div class="title mon">Vintage Backbag</div>
+                                <div class="price">
+                                    <div class="dprice mon">$54.99</div>
+                                    <div class="rprice mon">$94.99</div>
+                                </div>
+                                <div class="counter">
+                                    <img id="minus1" src="./resources/minus.png" alt="minus" class="score">
+                                    <div id="d1" class="number mon">1</div>
+                                    <img id="add1" src="./resources/plus.png" alt="minus" class="score">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="checkOut">
+                            <img src="./resources/photo2.png" alt="backpack" class="cimg">
+                            <div class="data">
+                                <div class="title mon">Levi Shoes</div>
+                                <div class="price">
+                                    <div class="dprice mon">$74.99</div>
+                                    <div class="rprice mon">$124.99</div>
+                                </div>
+                                <div class="counter">
+                                    <img id="minus2" src="./resources/minus.png" alt="minus" class="score">
+                                    <div id="d2" class="number mon">1</div>
+                                    <img id="add2" src="./resources/plus.png" alt="minus" class="score">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <hr>
+                        <div class="billing">
+                            <div class="btitle mon">Shipping</div>
+                            <div class="bprice mon">$19</div>
+                        </div>
+                        <hr>
+                        <div class="billing" style="margin-bottom: 2vh;">
+                            <div class="btitle mon">Total</div>
+                            <div id="res" class="bprice mon">$148.98</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <div id="copy-right">created by <span>Lbringer/Aditya</span>-devChallenges.io</div>
+    <script src="index.js"></script>
+</body>
+
+</html>
