@@ -32,7 +32,7 @@ h1 {
 form,
 #cat {
     width: 50%;
-    height: 110vh;
+    min-height: 110vh;
     /* border: 1px solid black; */
 }
 
@@ -100,7 +100,7 @@ select:invalid {
 .world {
     background-image: url(./resources/world.png), url(./resources/dropdown.png);
     background-size: 1.2vw auto;
-    background-position: 11% 50%, 90% 50%;
+    background-position: 10% 50%, 90% 50%;
 }
 
 .post {
@@ -200,6 +200,7 @@ button {
 .title,
 .dprice {
     font-size: 1.1vw;
+    color: rgba(78, 81, 80, 1);
 }
 
 .dprice {
@@ -210,6 +211,7 @@ button {
     font-size: 0.8vw;
     margin-left: 0.8vw;
     text-decoration: line-through;
+    color: rgba(78, 81, 80, 1);
 }
 
 .score {
@@ -259,21 +261,27 @@ span {
     font-weight: 700;
 }
 
+#pos {
+    text-indent: 3vw;
+}
+
 @media screen and (max-width: 500px) {
     .container {
         flex-direction: column-reverse;
         align-items: center;
     }
 
-    form,
-    #cat {
-        width: 95%;
-        height: 110vh;
-        /* border: 1px solid black; */
+    main {
+        width: 95vw;
+        /* border: 1px solid black */
     }
 
-    main {
-        width: 90vw;
+    form,
+    #cat {
+        width: 95vw;
+        min-height: 75vh;
+        margin-bottom: 3vh;
+        /* border: 1px solid black; */
     }
 
     h1 {
@@ -282,97 +290,129 @@ span {
 
     #box {
         min-height: 95vw;
-        width: 85vw;
+        width: 95vw;
+        margin-top: 3vh;
     }
 
     .checkOut {
-        width: 85vw;
-        height: 30vw;
+        width: 95vw;
+        height: 40vw;
         /* border: 1px solid black; */
     }
 
     .cimg {
-        height: 30vw;
+        height: 35vw;
         width: auto;
         border-radius: 12px;
     }
 
-    .price {
-        display: flex;
-        width: 9vw;
-        align-items: center;
-        margin-bottom: 3vh;
+    .counter {
+        width: 35vw;
+        height: 12vw;
         /* border: 1px solid black; */
     }
 
-
-    .counter {
-        display: flex;
-        width: 9vw;
-        height: 3.2vw;
-        border-radius: 12px;
-        border: 1px solid rgba(130, 130, 130, 1);
-        justify-content: space-around;
-        align-items: center;
-        /* border: 1px solid black; */
+    .number {
+        font-size: 4vw;
     }
 
     .data {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        /* align-items: center; */
         /* border: 1px solid black; */
-        height: 30vw;
+        height: 35vw;
         width: 40vw;
     }
 
     .title,
     .dprice {
-        font-size: 4vw;
-    }
-
-    .dprice {
-        color: rgba(242, 153, 74, 1);
+        font-size: 3.5vw;
     }
 
     .rprice {
         font-size: 3vw;
-        margin-left: 2vw;
-        text-decoration: line-through;
+        margin-left: 2vh;
     }
 
     .score {
-        width: 1.4vw;
-        height: auto;
+        width: 6vw;
     }
 
     hr {
-        border: 0.5px solid rgba(189, 189, 189, 1);
-        width: 21vw;
-        margin-top: 1vh;
-        margin-bottom: 1vh;
+        width: 82vw;
+        margin-top: 2vh;
+        margin-bottom: 2vh;
     }
 
     .billing {
-        width: 21vw;
-        height: 5vh;
-        /* border: 1px solid black; */
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
+        width: 82vw;
     }
 
     .btitle {
-        font-size: 1.1vw;
+        font-size: 4vw;
     }
 
     .bprice {
-        font-size: 1vw;
+        font-size: 4vw;
     }
 
-    .number {
-        font-size: 1.2vw;
+    h2 {
+        font-size: 4vw;
+        margin-top: 0;
+    }
+
+    label {
+        font-size: 3.2vw;
+    }
+
+    input,
+    select {
+        height: 6.5vh;
+        font-size: 3.5vw;
+        text-indent: 12vw;
+        background-position: 5% 50%;
+        background-size: 5vw auto;
+    }
+
+    .phone,
+    .profile,
+    .home,
+    .city,
+    .world,
+    .post {
+        background-size: 4.5vw auto;
+    }
+
+    #pos {
+        text-indent: 8vw;
+    }
+
+    select {
+        width: 45vw;
+        text-indent: 10vw;
+    }
+
+    .world {
+        background-size: 4vw auto;
+    }
+
+    .box {
+        margin-bottom: 7vh;
+    }
+
+    input[type="checkbox"] {
+        width: 4vw;
+        height: 4vw;
+        margin-right: 1.2vh;
+    }
+
+    button {
+        width: 35vw;
+        height: 13vw;
+        font-size: 4vw;
+    }
+
+    #copy-right {
+        margin-top: -1px;
+        font-size: 3vw;
     }
 
 }
