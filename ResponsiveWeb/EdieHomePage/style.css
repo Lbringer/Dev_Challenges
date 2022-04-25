@@ -1,0 +1,46 @@
+body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.color {
+    color: rgba(51, 51, 51, 1);
+}
+
+nav {
+    width: 90vw;
+    min-height: 5vh;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 3vh;
+}
+
+.navlink {
+    width: 55vw;
+    min-height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.icon {
+    font-family: 'Heebo', sans-serif;
+    font-weight: 800;
+    font-size: 2.5vw;
+}
+
+.pop {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.5vw;
+}
