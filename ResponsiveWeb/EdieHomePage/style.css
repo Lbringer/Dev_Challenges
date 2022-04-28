@@ -65,14 +65,14 @@ main {
     align-items: center;
     width: 90vw;
     min-height: 40vw;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     margin-top: 10vh;
 }
 
 .con {
     width: 57vw;
     min-height: 10vw;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 .headerSub {
@@ -128,7 +128,7 @@ input {
     align-items: center;
 }
 
-button {
+.button1 {
     border: none;
     background-color: rgba(45, 156, 219, 1);
     border-radius: 0.8vw;
@@ -142,7 +142,7 @@ button {
 .con2 {
     width: 70vw;
     min-height: 10vw;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 h3 {
@@ -151,15 +151,76 @@ h3 {
 }
 
 .con3 {
-    width: 70vw;
-    min-height: 25vw;
-    border: 1px solid black;
+    width: 80vw;
+    min-height: 27vw;
+    /* border: 1px solid black; */
     display: flex;
     justify-content: space-evenly;
 }
 
 .card {
-    min-height: 25vw;
-    width: 20vw;
-    border: 1px solid black;
+    width: 22vw;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border-radius: 2vw;
+    padding-left: 4vh;
+    box-sizing: border-box;
+}
+
+.icon2,
+.icon3,
+.icon4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5vh;
+    width: 4.2vw;
+    height: 4.2vw;
+    border-radius: 1vw;
+    background-color: rgba(45, 156, 219, 1);
+}
+
+.icon3 {
+    background-color: rgba(39, 174, 96, 1);
+}
+
+.icon4 {
+    background-color: rgba(235, 87, 87, 1);
+}
+
+.title {
+    font-weight: 700;
+    font-size: 1.6vw;
+    margin-top: 2vh;
+}
+
+.paraCard {
+    font-weight: 400;
+    font-size: 1vw;
+    width: 17vw;
+}
+
+.btnCard {
+    background-color: rgba(224, 224, 224, 1);
+    border: none;
+    width: 7vw;
+    height: 3vw;
+    font-size: 1vw;
+    border-radius: 0.8vw;
+    margin-bottom: 5vh;
+}
+
+.middle {
+    background-color: rgba(45, 156, 219, 1);
+    color: white;
+}
+
+.middleCard {
+    box-shadow: 0px 10px 30px rgba(51, 51, 51, 0.1);
+}
+
+.imgIcon {
+    width: 2vw;
 }
