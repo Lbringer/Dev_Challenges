@@ -59,7 +59,8 @@ a {
 }
 
 header,
-main {
+main,
+#work {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -159,13 +160,14 @@ h3 {
 }
 
 .card {
-    width: 22vw;
+    width: 23vw;
     /* border: 1px solid black; */
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     border-radius: 2vw;
     padding-left: 4vh;
+    padding-right: 4vh;
     box-sizing: border-box;
 }
 
@@ -199,7 +201,6 @@ h3 {
 .paraCard {
     font-weight: 400;
     font-size: 1vw;
-    width: 17vw;
 }
 
 .btnCard {
@@ -223,4 +224,78 @@ h3 {
 
 .imgIcon {
     width: 2vw;
+}
+
+#work {
+    min-height: 80vw
+}
+
+.widthSet2 {
+    width: 25vw;
+    margin-bottom: 0;
+}
+
+.con4 {
+    width: 70vw;
+    min-height: 80vw;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    flex-wrap: wrap;
+}
+
+.work {
+    width: 34.5vw;
+    height: 40vw;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.imgWork {
+    width: 34.5vw;
+    height: auto;
+    border-radius: 1.5vw;
+}
+
+.subWork {
+    font-weight: 300;
+    font-size: 1vw;
+    margin-top: 2vh;
+}
+
+.titleWork {
+    font-size: 1.5vw;
+}
+
+.marginSet {
+    margin-top: 12vw;
+}
+
+.marginSet2 {
+    margin-bottom: 10vw;
+}
+
+.flexSet {
+    height: 51vw;
+}
+
+.seeMore {
+    width: 34.5;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.seeLink {
+    color: rgba(45, 156, 219, 1);
+    font-size: 1.5vw;
+}
+
+.arr {
+    width: 1vw;
+    height: 0.5vw;
+    margin-left: 1.5vh;
 }
