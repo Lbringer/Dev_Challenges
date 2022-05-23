@@ -7,6 +7,14 @@ body {
     /* min-height: 400vh; */
 }
 
+.border {
+    border: 1px solid black;
+}
+
+.border2 {
+    border: 1px solid white;
+}
+
 .color {
     color: rgba(51, 51, 51, 1);
 }
@@ -66,7 +74,7 @@ main,
     align-items: center;
     width: 90vw;
     min-height: 40vw;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     margin-top: 10vh;
 }
 
@@ -143,7 +151,7 @@ input {
 .con2 {
     width: 70vw;
     min-height: 10vw;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 h3 {
@@ -160,7 +168,7 @@ h3 {
 }
 
 .card {
-    width: 23vw;
+    width: 22vw;
     /* border: 1px solid black; */
     display: flex;
     flex-direction: column;
@@ -319,7 +327,144 @@ h3 {
 }
 
 .teamCon {
-    height: 35vw;
+    height: 40vw;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+}
+
+.teamCon2 {
+    height: 40vw;
+    width: 42vw;
+    display: flex;
+}
+
+.teamRow {
+    width: 50%;
+    height: 40vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.img1 {
+    width: 100%;
+}
+
+.round {
+    border-radius: 2vw;
+}
+
+.img2 {
+    width: 80%;
+    margin-bottom: 1.2vw;
+    margin-left: 1.2vw;
+}
+
+.img3 {
+    width: 90%;
+    margin-left: 1.2vw;
+}
+
+.ws2 {
+    width: 55vw;
+}
+
+.auth {
+    width: 20vw;
+    height: 7vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.authImg {
+    width: 6vw;
+}
+
+.info {
+    height: 7vw;
+    width: 11vw;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.fontSet {
+    font-weight: 500;
+    width: fit-content;
+}
+
+.contact {
+    width: 100vw;
+    min-height: 30vw;
+    box-sizing: border-box;
+    background-color: rgba(16, 14, 29, 1);
+}
+
+.ws3 {
+    height: 25vw;
+    display: flex;
+    margin-bottom: 5vh;
+}
+
+.cb1 {
+    width: 30%;
+}
+
+.cb2 {
+    width: 30%;
+}
+
+.cb3 {
+    width: 40%;
+}
+
+.color4 {
+    color: rgba(242, 242, 242, 1);
+}
+
+.contVersion {
+    flex-direction: column;
+    width: fit-content;
+    height: 12vw;
+    margin-top: 7vh;
+    align-items: flex-start;
+}
+
+.fontSet2 {
+    font-weight: 300;
+    font-size: 1.2vw;
+}
+
+.marginSet4 {
+    margin-top: 7vh;
+}
+
+.iconSet {
+    width: 7vw;
+    height: 2vw;
+    display: flex;
+    align-items: center;
+}
+
+.iconCon {
+    width: 4vw;
+    height: 1.7vw;
+}
+
+#copy-right {
+    margin-top: -1px;
+    width: 100%;
+    text-align: center;
+    font-family: poppins;
+    font-weight: 200;
+    color: rgba(242, 242, 242, 1);
+    font-size: 1vw;
+}
+
+span {
+    font-weight: 400;
 }
