@@ -13,14 +13,19 @@
 </head>
 
 <body>
-    <nav>
-        <div class="icon color" id="home">Edie</div>
-        <div class="navlink">
-            <a href="#home" class="pop color">Home</a>
-            <a href="#service" class="pop color">Services</a>
-            <a href="#work" class="pop color">Our Works</a>
-            <a href="#client" class="pop color">Clients</a>
-            <a href="#contact" class="pop color">Contact</a>
+    <nav id="home">
+        <div class="icon color">Edie</div>
+        <div class="dropdown">
+            <img id="menuIcon" src="./res/list.svg" alt="ham">
+            <div class="dropdown-content">
+                <div class="navlink">
+                    <a href="#home" class="pop color white">Home</a>
+                    <a href="#service" class="pop color white">Services</a>
+                    <a href="#work" class="pop color white">Our Works</a>
+                    <a href="#client" class="pop color white">Clients</a>
+                    <a href="#contact" class="pop color white">Contact</a>
+                </div>
+            </div>
         </div>
     </nav>
     <header>
@@ -43,9 +48,9 @@
             </div>
         </div>
     </main>
-    <main>
+    <main id="service">
         <div class="con2">
-            <h3 id="service" class="pop color">We offer high demand services </h3>
+            <h3 class="pop color">We offer high demand services </h3>
         </div>
         <div class="con3">
             <div class="card">
@@ -73,7 +78,7 @@
     </main>
     <div id="work">
         <div class="con2">
-            <h3 id="service" class="pop color widthSet2">Good design means good business</h3>
+            <h3 class="pop color widthSet2">Good design means good business</h3>
         </div>
         <div class="con4">
             <div class="work marginSet">
@@ -108,7 +113,7 @@
         <div class="con2 teamCon">
             <div>
                 <div class=" headerSub pop teamSub">Meet the team</div>
-                <h3 class="pop color marginSet3">We are chilled and a laidback team</h3>
+                <h3 class="pop color marginSet3 hTeam">We are chilled and a laidback team</h3>
                 <p class="paraCard pop paraTeam">Lorem ipsum dolor sit amet, consectetur adipiscing elit..</p>
             </div>
             <div class="teamCon2">
@@ -122,15 +127,15 @@
             </div>
         </div>
     </main>
-    <main class="centerAlign">
-        <div class="con2">
-            <h3 id="client" class="pop color ws2">“Fast and outstanding results. Edie understands their customer’s
+    <main class="centerAlign" id="client">
+        <div class="con2 con4 con5">
+            <h3 class="pop color ws2">“Fast and outstanding results. Edie understands their customer’s
                 needs. They
                 have a young and talented team.”</h3>
             <div class="auth">
                 <img src="./res/person4.png" alt="auth" class="authImg">
                 <div class="info">
-                    <div class="titleWork pop color">Carlos Tran</div>
+                    <div class="titleWork pop color fontSet3">Carlos Tran</div>
                     <div class="subWork pop color3 fontSet">The Decorate Gatsby</div>
                 </div>
             </div>

@@ -4,7 +4,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* min-height: 400vh; */
+    height: fit-content;
 }
 
 .border {
@@ -245,7 +245,7 @@ h3 {
 
 .con4 {
     width: 70vw;
-    min-height: 80vw;
+    /* min-height: 80vw; */
     /* border: 1px solid black; */
     display: flex;
     justify-content: space-between;
@@ -398,7 +398,7 @@ h3 {
 }
 
 .contact {
-    width: 100vw;
+    width: 100%;
     min-height: 30vw;
     box-sizing: border-box;
     background-color: rgba(16, 14, 29, 1);
@@ -452,7 +452,8 @@ h3 {
 
 .iconCon {
     width: 4vw;
-    height: 1.7vw;
+    height: 1vw;
+    transform: scale(1.5);
 }
 
 #copy-right {
@@ -467,4 +468,431 @@ h3 {
 
 span {
     font-weight: 400;
+}
+
+#menuIcon {
+    display: none;
+    position: absolute;
+    z-index: 1;
+}
+
+@media screen and (max-width: 400px) {
+
+    header,
+    main,
+    #work {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 95vw;
+        min-height: 40vw;
+        /* border: 1px solid black; */
+        margin-top: 10vh;
+    }
+
+    main {
+        margin-top: 3vw;
+    }
+
+    .icon {
+        font-size: 9vw;
+    }
+
+    #menuIcon {
+        display: inline-block;
+        position: static;
+        width: 10vw;
+    }
+
+    .navlink {
+        align-items: flex-start;
+        flex-direction: column;
+        height: 80vw;
+        width: 50vw;
+    }
+
+    a {
+        font-size: 4vw;
+        width: 10vw;
+    }
+
+    .white {
+        color: white;
+        font-weight: 300;
+    }
+
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        right: 0.5vw;
+        background-color: rgba(0, 0, 0, 0.9);
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        padding: 12px 16px;
+        z-index: 1;
+    }
+
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+
+    .headerSub {
+        font-size: 4vw;
+    }
+
+    h2 {
+        font-size: 7vw;
+        width: 80vw;
+        margin-top: 1vh;
+        margin-bottom: 1vh;
+    }
+
+    .con {
+        width: 70vw;
+    }
+
+    img {
+        width: 100%;
+        border-radius: 2vw;
+        margin-top: 5vw;
+        margin-bottom: 5vw;
+    }
+
+    .widthSet {
+        width: 55vw;
+    }
+
+    .p1 {
+        font-size: 2.2vw;
+        line-height: 3.2vw;
+    }
+
+    .sub {
+        font-size: 2.2vw;
+        margin-top: 5vw;
+    }
+
+    .button1 {
+        font-size: 2.2vw;
+        height: 6.5vw;
+        width: 10vw;
+        border-radius: 2vw;
+    }
+
+    .incon {
+        height: 8vw;
+        margin-top: 1vh;
+        border-radius: 2vw;
+    }
+
+    input {
+        font-size: 2.2vw;
+    }
+
+    h3 {
+        font-size: 7vw;
+        width: 70vw;
+
+    }
+
+    #service {
+        margin-top: 20vw;
+    }
+
+    .con3 {
+        margin-top: 10vw;
+        flex-direction: column;
+    }
+
+    .card {
+        width: 80vw;
+        min-height: 60vw;
+        margin-bottom: 10vw;
+    }
+
+    .icon2,
+    .icon3,
+    .icon4 {
+        width: 15vw;
+        height: 15vw;
+        border-radius: 4vw;
+    }
+
+    .title {
+        font-size: 7vw;
+    }
+
+    .paraCard {
+        font-size: 4.5vw;
+    }
+
+    .btnCard {
+        width: 35vw;
+        height: 15vw;
+        font-size: 4.5vw;
+        border-radius: 3vw;
+        margin-top: 5vw;
+    }
+
+    .imgIcon {
+        width: 6vw;
+    }
+
+    .widthSet2 {
+        width: 80vw;
+        margin-bottom: 0;
+    }
+
+    .con4 {
+        width: 90vw;
+        height: 500vw;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    .work {
+        width: 90vw;
+        height: fit-content;
+        /* border: 1px solid black; */
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .imgWork {
+        width: 90vw;
+        height: auto;
+        border-radius: 4vw;
+    }
+
+    .subWork {
+        font-size: 3vw;
+        margin-top: 2vh;
+    }
+
+    .titleWork {
+        font-size: 5vw;
+    }
+
+    .marginSet {
+        margin-top: 0;
+    }
+
+    .marginSet2 {
+        margin-bottom: 0;
+    }
+
+    .flexSet {
+        height: fit-content;
+    }
+
+    .seeMore {
+        width: 40vw;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        margin-top: 10vw;
+    }
+
+    .seeLink {
+        font-size: 5vw;
+        width: 30vw;
+    }
+
+    .arr {
+        width: 1vw;
+        height: 0.5vw;
+        transform: scale(4);
+    }
+
+    .centerAlign {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-direction: column;
+        width: 85vw;
+        margin-top: 50vw;
+    }
+
+    .teamSub {
+        font-size: 5vw;
+    }
+
+    .hTeam {
+        font-size: 9vw;
+    }
+
+    .paraTeam {
+        width: 80vw;
+    }
+
+    .teamCon {
+        height: fit-content;
+        width: 85vw;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    .teamCon2 {
+        height: 90vw;
+        width: 85vw;
+        display: flex;
+        margin-top: 5vw;
+    }
+
+    .teamRow {
+        width: 50%;
+        height: 90vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    .img1 {
+        width: 100%;
+    }
+
+    .round {
+        border-radius: 4vw;
+    }
+
+    .img2 {
+        width: 80%;
+        margin-bottom: 1vw;
+        margin-left: 2vw;
+    }
+
+    .img3 {
+        width: 90%;
+        margin-left: 2vw;
+        margin-top: 1vw;
+    }
+
+    #client {
+        margin-top: 25vw;
+        margin-bottom: 25vw;
+    }
+
+    .ws2 {
+        width: 90vw;
+        margin-bottom: 0;
+    }
+
+    .con5 {
+        height: 90vw;
+    }
+
+    .auth {
+        width: 90vw;
+        height: 20vw;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .authImg {
+        width: 20vw;
+    }
+
+    .info {
+        height: 20vw;
+        width: 60vw;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+    }
+
+    .fontSet {
+        font-size: 5vw;
+    }
+
+    .fontSet3 {
+        font-size: 7vw;
+    }
+
+    .contact {
+        width: 100%;
+        height: 175vw;
+        box-sizing: border-box;
+        background-color: rgba(16, 14, 29, 1);
+    }
+
+    .ws3 {
+        margin-top: 15vw;
+        height: 170vw;
+        display: flex;
+        margin-bottom: 5vh;
+        flex-direction: column;
+    }
+
+    .cb1 {
+        height: 30%;
+    }
+
+    .cb2 {
+        height: 30%;
+    }
+
+    .cb3 {
+        margin-top: 4vw;
+        height: 40%;
+        transform: scale(1.2);
+    }
+
+    a {
+        width: fit-content;
+    }
+
+    .contVersion {
+        flex-direction: column;
+        width: fit-content;
+        height: 100%;
+        margin-top: 0vh;
+        justify-content: space-evenly;
+        align-items: flex-start;
+    }
+
+    .fontSet2 {
+        font-weight: 300;
+        font-size: 4vw;
+    }
+
+    .marginSet4 {
+        margin-top: 7vh;
+    }
+
+    .iconSet {
+        width: 20vw;
+        height: 10vw;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .iconCon {
+        width: 5vw;
+        height: 3vw;
+        transform: scale(1.5);
+    }
+
+    #copy-right {
+        font-size: 4vw;
+        margin-bottom: 8vw;
+    }
+
+    span {
+        font-weight: 400;
+    }
+
+
 }
