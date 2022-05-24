@@ -1,0 +1,385 @@
+body {
+    margin: 0;
+    /* min-height: 100vh; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #F3F3F3;
+}
+
+.mon {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 0.8vw;
+}
+
+.border {
+    border: 1px solid black;
+}
+
+.container {
+    width: 75vw;
+    min-height: 62vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.con {
+    box-shadow: 0px 4px 32px rgba(0, 0, 0, 0.12);
+    border-radius: 1.2vw;
+    background-color: white;
+    margin-bottom: 1vw;
+}
+
+.pd,
+.row,
+.projHeader,
+.proj {
+    width: 75vw;
+    height: 20vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.pd {
+    margin-top: 1vw;
+}
+
+.imgPd {
+    width: 20%;
+    border-radius: 1.2vw;
+}
+
+.infoPd {
+    width: 60%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.deets {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nd,
+.contact {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.name {
+    font-weight: 600;
+    font-size: 1.2vw;
+    color: #4700D8;
+}
+
+.info {
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.s {
+    width: 25vw;
+    height: 30vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    padding-left: 4vw;
+    box-sizing: border-box;
+}
+
+.h {
+    height: 30vw;
+    width: 49vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    padding-left: 4vw;
+    box-sizing: border-box;
+}
+
+.row {
+    justify-content: space-between;
+    height: fit-content;
+    align-items: flex-start;
+}
+
+.projHeader {
+    height: 10vw;
+}
+
+.proj {
+    height: 40vw;
+}
+
+.skill {
+    width: 13vw;
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.label {
+    /* font-size: 1vw; */
+    font-weight: 600;
+}
+
+.chart {
+    width: 8vw;
+}
+
+.content {
+    height: 20vw;
+    width: 43vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.hobby {
+    width: 20vw;
+    height: 18vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.hobbyImg {
+    width: 18vw;
+    height: 10vw;
+    border-radius: 1.2vw;
+}
+
+.hobbyLabel {
+    font-weight: 600;
+    font-size: 1vw;
+}
+
+.hobbyInfo {
+    text-align: center;
+    margin: 0;
+}
+
+.projHeader {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    padding-left: 4vw;
+    box-sizing: border-box;
+}
+
+.cat {
+    width: 40%;
+    height: 25%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.catButton {
+    border: 0;
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+    width: 25%;
+    height: 100%;
+    border-radius: 0.8vw;
+    transition: all 400ms;
+}
+
+.catButton:hover {
+    color: white !important;
+    background-color: #4700D8 !important;
+    border: 0 !important;
+    font-weight: 600 !important;
+}
+
+.firstButton {
+    color: white;
+    background-color: #4700D8;
+    border: 0;
+    font-weight: 600;
+}
+
+.proj {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.projCon {
+    width: 100%;
+    height: 70%;
+    display: flex;
+    /* justify-content: space-evenly; */
+    align-items: center;
+}
+
+#s1,
+#s2 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.links {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.link {
+    width: 3.5%;
+    height: 65%;
+    margin-right: 2vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 0.8vw;
+    transition: all 400ms;
+    box-sizing: border-box;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.link:hover {
+    background-color: #4700D8 !important;
+    border: 0 !important;
+}
+
+.link:hover>a {
+    color: white !important;
+    font-weight: 600 !important;
+}
+
+.firstLink {
+    background-color: #4700D8;
+    border: 0;
+}
+
+.firsta {
+    color: white;
+    font-weight: 600;
+}
+
+.projCard {
+    width: 30%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    /* box-shadow: 0px 4px 32px rgba(0, 0, 0, 0.12); */
+}
+
+.projImg {
+    height: 40%;
+    border-radius: 1.2vw;
+    box-shadow: 0px 4px 32px rgba(0, 0, 0, 0.12);
+}
+
+.c,
+.projLink {
+    font-weight: 700;
+}
+
+.projLabel {
+    font-weight: 600;
+    font-size: 1.2vw;
+    color: #4700D8;
+}
+
+.seeMore {
+    display: flex;
+    align-items: center;
+    width: 35%;
+    height: 10%;
+    align-items: center;
+    justify-content: space-evenly;
+    transition: all 400ms;
+    box-sizing: border-box;
+}
+
+.arr {
+    width: 1.1vw;
+}
+
+.seeMore:hover {
+    transform: scale(1.2);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.slider {
+    text-align: center;
+    overflow: hidden;
+}
+
+.slides {
+    display: flex;
+
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+
+
+
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+
+    /*
+    scroll-snap-points-x: repeat(300px);
+    scroll-snap-type: mandatory;
+    */
+}
+
+.slides::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+.slides>div {
+    scroll-snap-align: start;
+    flex-shrink: 0;
+    margin-right: 50px;
+    border-radius: 10px;
+    transform-origin: center center;
+    transform: scale(1);
+    transition: transform 0.5s;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+}
