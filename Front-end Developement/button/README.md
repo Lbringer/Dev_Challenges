@@ -12,7 +12,7 @@
       Demo
     </a>
     <span> | </span>
-    <a href="https://github.com/Lbringer/Dev_Challenges/tree/master/ResponsiveWeb/Portfolio">
+    <a href="https://github.com/Lbringer/Dev_Challenges/tree/master/Front-end%20Developement/button">
       Solution
     </a>
     <span> | </span>
