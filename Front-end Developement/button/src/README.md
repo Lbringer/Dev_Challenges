@@ -1,6 +1,6 @@
 <!-- Please update value in the {}  -->
 
-<h1 align="center">Porfolio</h1>
+<h1 align="center">Buttons</h1>
 
 <div align="center">
    Solution for a challenge from  <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>.
@@ -8,7 +8,7 @@
 
 <div align="center">
   <h3>
-    <a href="https://incandescent-meerkat-4bee9e.netlify.app/">
+    <a href="https://62e8f708f8f70736aa1ad7a2--buttonss.netlify.app/">
       Demo
     </a>
     <span> | </span>
@@ -16,7 +16,7 @@
       Solution
     </a>
     <span> | </span>
-    <a href="https://devchallenges.io/challenges/5ZnOYsSXM24JWnCsNFlt">
+    <a href="https://devchallenges.io/challenges/ohgVTyJCbm5OZyTB2gNY">
       Challenge
     </a>
   </h3>
@@ -33,6 +33,7 @@
 - [HTML]
 - [CSS]
 - [JS]
+- [REACT]
 
 ## Features
 
