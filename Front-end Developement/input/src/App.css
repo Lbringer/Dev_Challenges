@@ -1,0 +1,28 @@
+.con {
+  width: 90vw;
+  height: 20vh;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+#copy-right {
+  margin-top: -1px;
+  width: 100%;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  color: rgba(130, 130, 130, 1);
+  font-size: 1vw;
+}
+
+span {
+  font-weight: 700;
+}
+
+h1 {
+  color: #4F4F4F;
+  font-weight: 500;
+  font-size: 2vw;
+}

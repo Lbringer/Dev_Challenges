@@ -1,0 +1,27 @@
+.label {
+    font-size: 0.8vw;
+    font-family: 'Ubuntu Mono', monospace;
+    margin-bottom: 0.8vh;
+}
+
+label {
+    font-size: 0.9vw;
+    color: #333333;
+}
+
+.inputCon {
+    height: 15vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+input {
+    height: 7vh;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1vw;
+    width: 13vw;
+    border: 1px solid #828282;
+    padding-left: 1vw;
+    border-radius: 0.5vw;
+}
