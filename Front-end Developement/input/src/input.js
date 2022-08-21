@@ -6,12 +6,40 @@ class Input extends React.Component {
         super(props);
     }
     render() {
+        let divCss = "";
+        let inputCss = "";
+        if (!this.props.hover) {
+            if (this.props.error) {
+                if (this.props.focus) {
+                    divCss = "errfocusCon";
+                    inputCss = "errfocus";
+                }
+                else {
+                    divCss = "errCon";
+                    inputCss = "error";
+                }
+            }
+            else {
+                if (this.props.focus) {
+                    divCss = "deffocusCon";
+                    inputCss = "deffocus";
+                }
+                else {
+                    divCss = "defaultCon";
+                    inputCss = "default";
+                }
+            }
+        }
+        else {
+            inputCss = "hover";
+        }
         return (<>
             <div className='inputCon'>
                 <div className='label'>{this.props.label}</div>
-                <div><label for="input">Label</label></div>
-                {/* Based on the number of props loop over them and add them to the class */}
-                <input className={this.props.variant + " " + this.props.helperText} id="input" placeholder='Placeholder'></input>
+                <div className={divCss}>
+                    <div><label for="input">Label</label></div>
+                    <input className={inputCss} id="input" placeholder='Placeholder'></input>
+                </div>
             </div>
         </>)
     }
