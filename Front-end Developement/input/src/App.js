@@ -19,7 +19,17 @@ class App extends React.Component {
         <Input label={"&:hover"} hover error />
         <Input label={"&:focus"} focus error />
       </div>
-      <div className='con'></div>
+      <div className='con'>
+        <Input label={"<Input disabled>"} disabled />
+      </div>
+      <div className='con'>
+        <Input label={"<Input helperText=”Some interesting text” />"} helperText="Some interesting text" />
+        <Input label={"<Input helperText=”Some interesting text” />"} error helperText="Some interesting text" />
+      </div>
+      <div className='con'>
+        <Input label={"<Input startIcon/>"} startIcon />
+        <Input label={"<Input endIcon/>"} endIcon />
+      </div>
 
       <div id="copy-right">created by <span>Lbringer/Aditya</span>-devChallenges.io</div></>)
   }

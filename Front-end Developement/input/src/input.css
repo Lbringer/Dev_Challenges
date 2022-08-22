@@ -22,7 +22,7 @@ input {
     font-size: 1vw;
     width: 13vw;
     border: 2px solid #828282;
-    padding-left: 1vw;
+    padding-left: 1.5vw;
     border-radius: 0.5vw;
 }
 
@@ -60,3 +60,26 @@ input {
 .errfocusCon>div>label {
     color: #D32F2F;
 }
+
+.defText,
+.errText {
+    font-size: 0.8vw;
+    margin-top: 1vh;
+}
+
+.defText {
+    color: #828282;
+}
+
+.errText {
+    color: #D32F2F;
+}
+
+.startIcon,
+.endIcon {
+    position: absolute;
+    padding-top: 2.5vh;
+    transform: scale(0.7);
+}
+
+.endIcon {}

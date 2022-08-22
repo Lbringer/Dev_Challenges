@@ -8,6 +8,15 @@ class Input extends React.Component {
     render() {
         let divCss = "";
         let inputCss = "";
+        let textcss = "";
+        if (this.props.helperText) {
+            if (this.props.error) {
+                textcss = "errText";
+            }
+            else {
+                textcss = "defText";
+            }
+        }
         if (!this.props.hover) {
             if (this.props.error) {
                 if (this.props.focus) {
@@ -38,7 +47,18 @@ class Input extends React.Component {
                 <div className='label'>{this.props.label}</div>
                 <div className={divCss}>
                     <div><label for="input">Label</label></div>
-                    <input className={inputCss} id="input" placeholder='Placeholder'></input>
+                    {this.props.startIcon ? <span class="material-symbols-outlined startIcon">
+                        call
+                    </span> : null}
+                    {this.props.disabled
+                        ? <input className={inputCss} id="input" placeholder='Placeholder' disabled >
+                        </input>
+                        : <input className={inputCss} id="input" placeholder='Placeholder' >
+                        </input>}
+                    {this.props.endIcon ? <span class="material-symbols-outlined endIcon">
+                        call
+                    </span> : null}
+                    {this.props.helperText ? <div className={textcss}>{this.props.helperText}</div> : null}
                 </div>
             </div>
         </>)
